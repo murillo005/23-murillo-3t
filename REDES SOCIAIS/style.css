@@ -4,9 +4,28 @@
 html{
     background-color: white;
     font-family: "Nunito Sans";
+    display: flex;
+    justify-content: center;
+    height: 30px;
 }
 body{
     background-color: black;
     color: white;
-
+    border-radius: 5px;
+    text-align: center;
+}
+header, main{
+    background-color: black;
+    padding: 10px;
+    color: black;
+}
+footer{
+    background-color: black;
+    padding:  0 20px 0 20px;
+    font-size: 8px;
+    color: black;
+}
+a:hover{
+    font-size: 14px;
+    
 }
